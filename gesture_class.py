@@ -95,7 +95,7 @@ def main():
 				bathroom_light=openhab.get_item(item_name)
 				print(bathroom_light.state)
 				if bathroom_light.state=='ON':
-					#bathroom_light.off()
+					bathroom_light.off()
 					print("of..................")
 				else:
 					print("already of and continue................................")
@@ -108,7 +108,7 @@ def main():
 				bathroom_light=openhab.get_item(item_name)
 				print(bathroom_light.state)
 				if bathroom_light.state=='OFF':
-					#bathroom_light.on()
+					bathroom_light.on()
 					print("on...........................................")
 				else:
 					print("already on and continue..................................")
