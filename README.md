@@ -41,8 +41,8 @@ Output: <br />
 * cv2.imshow() shows frames on a new openCV window.
 * The cv2.waitKey() function keeps the display window open until the key ‘q’ is pressed.
 #### Detect Hand key points
-For finding the hands and getting the landmarks of the hands a library called mediapipe is used.
-** mediapipe.solutions.hands **
+For finding the hands and getting the landmarks of the hands a library called mediapipe is used. <br />
+**mediapipe.solutions.hands**
 
 If no hands are detected in the frame, then the length of the landmarks list will be 0, so we don’t need to do anything until a hand is detected.
 If hands are detected, then we get the landmarks of the hand and the next step is to draw connections between the landmarks.
