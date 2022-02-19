@@ -61,6 +61,36 @@ If hands are detected, then we get the landmarks of the hand and the next step i
   * After that, we loop through each detection and store the coordinate on a list called landmarks.
   * Here image height (y) and image width(x) are multiplied with the result because the model returns a normalized result.       This means each value in the result is between 0 and 1.
   * And finally using mpDraw.draw_landmarks() function  draw all the landmarks in the frame.
+#### Recognizing hand gesture
+* Next step is to recognize the hand gesture using the tensorflow pre-defined model. 
+* The model.predict() function takes a list of landmarks and returns an array contains 10 prediction classes for each landmark.<br />
+The output looks like this- <br />
+[[2.0691623e-18 1.9585415e-27 9.9990010e-01 9.7559416e-05
+1.6617223e-06 1.0814080e-18 1.1070732e-27 4.4744065e-16 6.6466129e-07 4.9615162e-21]] <br />
+![Screenshot from 2022-02-19 16-30-13](https://user-images.githubusercontent.com/86007193/154798178-5a061239-69e1-4e8d-b76d-1cd2016e3ded.png) <br />
+* np.argmax() returns the index of the maximum value in the list.
+* The list having the maximum value index is taken for identifying the gesture.
+* After getting the index we can simply take the class name from the classNames list.
+* Then using the cv2.putText function we show the detected gesture into the frame.
+#### Openhab connection for light controlling using gesture
+![Screenshot from 2022-02-19 16-49-59](https://user-images.githubusercontent.com/86007193/154798813-b80b4cbf-1db3-4eaf-84e1-d6baf40380a1.png)
+
+* For controlling the lights we need to import Openhab library.
+* Then fetch the item name or device that has been connected using openhab.
+* Then, find the current state of the device [On or Off], this is for calling the on command if device is in off or vice versa.
+* In this code the light will turn on when gesture recognised as **Thumbs up** and light will of when gesture recognised as **Stop**
+
+###OUTPUT
+<br /> ![Screenshot from 2022-02-19 16-48-38](https://user-images.githubusercontent.com/86007193/154798823-871d1b56-659c-4913-b1ea-ff95803fcfe4.png)
+<br /> ![Screenshot from 2022-02-19 16-49-06](https://user-images.githubusercontent.com/86007193/154798843-6235fca0-9985-49a0-9b16-2284b04adce6.png)
+
+
+
+
+
+
+  
+
 
   
 
