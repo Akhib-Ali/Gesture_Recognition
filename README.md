@@ -40,5 +40,14 @@ Output: <br />
 * The cap.read() function reads each frame from the webcam.
 * cv2.imshow() shows frames on a new openCV window.
 * The cv2.waitKey() function keeps the display window open until the key ‘q’ is pressed.
+#### Detect Hand key points
+For finding the hands and getting the landmarks of the hands a library called mediapipe is used.
+** mediapipe.solutions.hands **
+
+If no hands are detected in the frame, then the length of the landmarks list will be 0, so we don’t need to do anything until a hand is detected.
+If hands are detected, then we get the landmarks of the hand and the next step is to draw connections between the landmarks.
+<br /> A sample skeleton of hand is shown below : <br />
+![Screenshot from 2022-02-19 12-38-29](https://user-images.githubusercontent.com/86007193/154790888-33009043-9dcd-4b5b-8f4c-2454cc13f168.png) <br />
+
 
 
