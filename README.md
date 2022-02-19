@@ -39,5 +39,6 @@ Output: <br />
 * Create a VideoCapture object and pass an argument ‘0’. It is the camera ID of the system. 
 * The cap.read() function reads each frame from the webcam.
 * cv2.imshow() shows frames on a new openCV window.
-* The cv2.waitKey() function keeps the window open until the key ‘q’ is pressed.
+* The cv2.waitKey() function keeps the display window open until the key ‘q’ is pressed.
+
 
