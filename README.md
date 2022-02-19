@@ -59,7 +59,7 @@ If hands are detected, then we get the landmarks of the hand and the next step i
   * The process function takes an RGB frame and returns a result class.
   * Then we check if any hand is detected or not, using result.multi_hand_landmarks method.
   * After that, we loop through each detection and store the coordinate on a list called landmarks.
-  * Here image height (y) and image width(x) are multiplied with the result because the model returns a normalized result.     * This means each value in the result is between 0 and 1.
+  * Here image height (y) and image width(x) are multiplied with the result because the model returns a normalized result.       This means each value in the result is between 0 and 1.
   * And finally using mpDraw.draw_landmarks() function  draw all the landmarks in the frame.
 
   
