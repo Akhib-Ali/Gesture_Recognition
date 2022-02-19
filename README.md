@@ -31,4 +31,13 @@ For detecting the human gesture a model named mp_hand_gesture is used , which is
 Output: <br />
 ![Screenshot from 2022-02-19 12-27-50](https://user-images.githubusercontent.com/86007193/154790454-d5062ae0-c51b-402d-82f6-1e2d908f2830.png) <br />
 
+* Read frames from the webcam <br />
+![Screenshot from 2022-02-19 12-32-22](https://user-images.githubusercontent.com/86007193/154790654-180d2d50-384e-45a6-bd85-5c8f355ad0c2.png) <br />
+
+
+
+* Create a VideoCapture object and pass an argument ‘0’. It is the camera ID of the system. 
+* The cap.read() function reads each frame from the webcam.
+* cv2.imshow() shows frames on a new openCV window.
+* The cv2.waitKey() function keeps the window open until the key ‘q’ is pressed.
 
