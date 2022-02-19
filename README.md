@@ -1,4 +1,4 @@
-# Gesture_Recognition
+# Gesture-Recognition
 An opencv project for recognising the human gesture.
 
 
