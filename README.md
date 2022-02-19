@@ -88,7 +88,7 @@ The output looks like this- <br />
 
 **OUTPUT - Human Gesture Recognition**
 
-![Screenshot from 2022-02-19 16-58-22](https://user-images.githubusercontent.com/86007193/154798963-8711728b-46b3-47bc-969c-f4c189855259.png)
+![Screenshot from 2022-02-19 17-52-16](https://user-images.githubusercontent.com/86007193/154800588-6042b88e-7902-4b3b-afdb-1dc77af2e9da.png)
 ![Screenshot from 2022-02-19 16-58-39](https://user-images.githubusercontent.com/86007193/154798990-ceabf14a-3134-452b-8906-e8d1c5b2c7c2.png)
 ![Screenshot from 2022-02-19 16-58-54](https://user-images.githubusercontent.com/86007193/154799001-cfce8cad-367d-41dd-a3db-af10551b5524.png)
 ![Screenshot from 2022-02-19 17-00-59](https://user-images.githubusercontent.com/86007193/154799039-b486e9c2-4a94-40e7-8780-54ab482cc5a3.png)
