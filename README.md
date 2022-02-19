@@ -81,9 +81,9 @@ The output looks like this- <br />
 * In this code the light will turn on when gesture recognised as **Thumbs up** and light will of when gesture recognised as **Stop**
 
 ### OUTPUT
-Light On
-<br /> ![Screenshot from 2022-02-19 16-48-38](https://user-images.githubusercontent.com/86007193/154798823-871d1b56-659c-4913-b1ea-ff95803fcfe4.png)
-Light Off
+**Light On**
+<br /> ![Screenshot from 2022-02-19 16-48-38](https://user-images.githubusercontent.com/86007193/154798823-871d1b56-659c-4913-b1ea-ff95803fcfe4.png) <br />
+**Light Off**
 <br /> ![Screenshot from 2022-02-19 16-49-06](https://user-images.githubusercontent.com/86007193/154798843-6235fca0-9985-49a0-9b16-2284b04adce6.png)
 
 **OUTPUT - Human Gesture Recognition**
