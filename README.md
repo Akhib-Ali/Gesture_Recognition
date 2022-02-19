@@ -13,8 +13,8 @@ To recognizes the human gestures seen in the camera frame and display the name o
 * openhab
 
 ### STEPS
-1.Import necessary packages
-2.Initialize models
-3.Read frames from webcam
-4.Detect hand key points using mediapipe
-5.Recognize hand gestures using tensorflow
+1.Import necessary packages <br />
+2.Initialize models <br />
+3.Read frames from webcam <br />
+4.Detect hand key points using mediapipe <br />
+5.Recognize hand gestures using tensorflow <br />
