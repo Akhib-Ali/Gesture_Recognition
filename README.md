@@ -36,6 +36,8 @@ Output: <br />
 
 
 
+
+
 * Create a VideoCapture object and pass an argument ‘0’. It is the camera ID of the system. 
 * The cap.read() function reads each frame from the webcam.
 * cv2.imshow() shows frames on a new openCV window.
@@ -49,5 +51,16 @@ If hands are detected, then we get the landmarks of the hand and the next step i
 <br /> A sample skeleton of hand is shown below : <br />
 ![Screenshot from 2022-02-19 12-38-29](https://user-images.githubusercontent.com/86007193/154790888-33009043-9dcd-4b5b-8f4c-2454cc13f168.png) <br />
 
+![Screenshot from 2022-02-19 16-15-21](https://user-images.githubusercontent.com/86007193/154797642-6dc008d6-524f-4d5b-bb3b-bf7cfd70276f.png) <br />
+![Screenshot from 2022-02-19 16-15-38](https://user-images.githubusercontent.com/86007193/154797666-404193cb-1a9a-452f-a5bf-f4909f4dcbb3.png) <br />
+
+  * MediaPipe works with RGB images but OpenCV reads images in BGR format. So, using cv2.cvtCOLOR() function  convert the     frame to RGB format.
+  * The process function takes an RGB frame and returns a result class.
+  * Then we check if any hand is detected or not, using result.multi_hand_landmarks method.
+  * After that, we loop through each detection and store the coordinate on a list called landmarks.
+  * Here image height (y) and image width(x) are multiplied with the result because the model returns a normalized result. *   * This means each value in the result is between 0 and 1.
+  * And finally using mpDraw.draw_landmarks() function  draw all the landmarks in the frame.
+
+  
 
 
