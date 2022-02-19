@@ -80,14 +80,23 @@ The output looks like this- <br />
 * Then, find the current state of the device [On or Off], this is for calling the on command if device is in off or vice versa.
 * In this code the light will turn on when gesture recognised as **Thumbs up** and light will of when gesture recognised as **Stop**
 
-###OUTPUT
+### OUTPUT
 <br /> ![Screenshot from 2022-02-19 16-48-38](https://user-images.githubusercontent.com/86007193/154798823-871d1b56-659c-4913-b1ea-ff95803fcfe4.png)
 <br /> ![Screenshot from 2022-02-19 16-49-06](https://user-images.githubusercontent.com/86007193/154798843-6235fca0-9985-49a0-9b16-2284b04adce6.png)
 
+**OUTPUT - Human Gesture Recognition**
 
+![Screenshot from 2022-02-19 16-58-22](https://user-images.githubusercontent.com/86007193/154798963-8711728b-46b3-47bc-969c-f4c189855259.png) <br />
 
+![Screenshot from 2022-02-19 16-58-39](https://user-images.githubusercontent.com/86007193/154798990-ceabf14a-3134-452b-8906-e8d1c5b2c7c2.png)
 
+![Screenshot from 2022-02-19 16-58-54](https://user-images.githubusercontent.com/86007193/154799001-cfce8cad-367d-41dd-a3db-af10551b5524.png)
 
+![Screenshot from 2022-02-19 17-00-59](https://user-images.githubusercontent.com/86007193/154799039-b486e9c2-4a94-40e7-8780-54ab482cc5a3.png)
+![Screenshot from 2022-02-19 17-01-14](https://user-images.githubusercontent.com/86007193/154799043-864efcb7-7c53-4369-bda5-918a803f7f04.png)
+
+![Screenshot from 2022-02-19 17-01-22](https://user-images.githubusercontent.com/86007193/154799049-9cd41772-671e-4e10-a44c-9cbafac3dc22.png)
+![Screenshot from 2022-02-19 17-03-32](https://user-images.githubusercontent.com/86007193/154799091-aa49bff4-51de-4100-afe5-b58f4c8803b7.png)
 
   
 
