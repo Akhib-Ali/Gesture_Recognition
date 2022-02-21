@@ -78,7 +78,7 @@ The output looks like this- <br />
 * For controlling the lights we need to import Openhab library.
 * Then fetch the item name or device that has been connected using openhab.
 * Then, find the current state of the device [On or Off], this is for calling the on command if device is in off or vice versa.
-* In this code the light will turn on when gesture recognised as **Thumbs up** and light will of when gesture recognised as **Stop**
+* Herethe light will turn on when gesture recognised as **Thumbs up** and light will off when gesture recognised as **Stop**
 
 ### OUTPUT
 **Light On**
